@@ -94,7 +94,7 @@ const Contact = () => {
               width="700"
               height="600"
               style={{ border: "0" }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="flex items-center rounded-lg"
