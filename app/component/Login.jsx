@@ -34,8 +34,8 @@ export default function Login() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-white">
-      <div className="relative bg-white/10 backdrop-blur-md p-8 rounded-sm border-2 w-[90%] max-w-md">
-        <h1 className="text-2xl font-extrabold text-black text-center mb-6">
+      <div className="relative bg-white/10 backdrop-blur-md p-8 rounded-sm border-2 border-slate-400 w-[90%] max-w-md">
+        <h1 className="text-2xl font-bold text-black text-center mb-6">
           LOGIN
         </h1>
         <form onSubmit={handleLogin} className="space-y-4">
@@ -45,7 +45,7 @@ export default function Login() {
               placeholder="Username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full p-3 bg-white border-2 text-slate-700 rounded-sm placeholder-slate-300 outline-none focus:ring-2 focus:ring-slate-400 transition"
+              className="w-full p-3 bg-white border-2 border-slate-400 text-slate-700 rounded-sm placeholder-slate-300 outline-none focus:ring-2 focus:ring-slate-400 transition"
             />
           </div>
           <div>
@@ -54,12 +54,12 @@ export default function Login() {
               placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full p-3 bg-white border-2 text-slate-700 rounded-sm placeholder-slate-300 outline-none focus:ring-2 focus:ring-slate-400 transition"
+              className="w-full p-3 bg-white border-2 border-slate-400 text-slate-700 rounded-sm placeholder-slate-300 outline-none focus:ring-2 focus:ring-slate-400 transition"
             />
           </div>
           <button
             type="submit"
-            className={`w-full py-3 bg-sky-400 text-white font-bold rounded-sm border-2 hover:opacity-90 transition ${
+            className={`w-full py-3 bg-sky-400 text-white font-bold rounded-sm border-2 border-slate-400 hover:opacity-90 transition ${
               loading ? "opacity-50 cursor-not-allowed" : ""
             }`}
             disabled={loading}

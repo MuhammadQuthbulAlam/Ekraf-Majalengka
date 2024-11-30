@@ -19,7 +19,7 @@ const page = () => {
               ekonomi.
             </p>
             <a
-              href="#about"
+              href="/Komite"
               className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-5 text-white shadow rounded-sm hover:scale-125"
             >
               Tentang Kami
