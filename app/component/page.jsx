@@ -34,23 +34,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="box pt-20 grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-6 mr-32 ml-36">
-        <div className="box flex flex-col px-2 rounded-lg bg-white border-2 border-gray-500 w-52 h-60">
-          <h1 className="text-center">Berita Acara</h1>
-        </div>
-        <div className="box flex flex-col px-2 rounded-lg bg-white border-2 border-gray-500 w-52 h-60">
-          <h1 className="text-center">Berita Acara</h1>
-        </div>
-        <div className="box flex flex-col px-2 rounded-lg bg-white border-2 border-gray-500 w-52 h-60">
-          <h1 className="text-center">Berita Acara</h1>
-        </div>
-        <div className="box flex flex-col px-2 rounded-lg bg-white border-2 border-gray-500 w-52 h-60">
-          <h1 className="text-center">Berita Acara</h1>
-        </div>
-        <div className="box flex flex-col px-2 rounded-lg bg-white border-2 border-gray-500 w-52 h-60">
-          <h1 className="text-center">Berita Acara</h1>
-        </div>
-      </div>
     </div>
   );
 };
