@@ -38,6 +38,45 @@ const Gedung = () => {
           </p>
         </div>
       </div>
+      {/* Alur Pengajuan Gedung MCC */}
+      <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3 mx-10">
+        <div
+          className="pt-10 mt-5 pb-5 bg-white border-2 rounded-lg"
+          id="pengajuan"
+        >
+          <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+            Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
+          </h2>
+          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+          <button
+            onClick={() => {
+              downloadFileAtURL(PDF_FILE_URL);
+            }}
+            type="submit"
+            className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+          >
+            Download File
+          </button>
+        </div>
+        {/* Link Pelaku Ekraf */}
+        <div
+          className="pt-10 mt-5 pb-5 bg-white border-2 rounded-lg"
+          id="registrasi"
+        >
+          <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
+            Registrasi Pelaku Ekraf Majalengka
+          </h2>
+          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUgFVqrPRqGerTgU7n5aXLraDRnkmlrwgw9adufF6T-E_ug/viewform">
+            <button
+              type="submit"
+              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+            >
+              Registrasi Sekarang
+            </button>
+          </a>
+        </div>
+      </div>
     </>
   );
 };
