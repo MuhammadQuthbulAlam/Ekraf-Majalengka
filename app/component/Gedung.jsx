@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import AboutImage from "../../public/Assets/images/MCC3.jpg";
+import { RiDownloadCloud2Line } from "react-icons/ri";
+
 const Gedung = () => {
   return (
     <>
@@ -47,13 +49,13 @@ const Gedung = () => {
           <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
             Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
           </h2>
-          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+          <RiDownloadCloud2Line className=" text-black flex px-5 text-3xl justify-center" />
           <button
             onClick={() => {
               downloadFileAtURL(PDF_FILE_URL);
             }}
             type="submit"
-            className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+            className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-sm text-white font-bold hover:bg-sky-500 transition-all"
           >
             Download File
           </button>
@@ -64,13 +66,13 @@ const Gedung = () => {
           id="registrasi"
         >
           <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
-            Registrasi Pelaku Ekraf Majalengka
+            Registrasi Pelaku Ekraf Majalengka Di Bawah Ini
           </h2>
-          <i className="ri-download-cloud-2-line flex px-5 text-3xl justify-center"></i>
+          <RiDownloadCloud2Line className="text-black flex px-5 text-3xl justify-center" />
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUgFVqrPRqGerTgU7n5aXLraDRnkmlrwgw9adufF6T-E_ug/viewform">
             <button
               type="submit"
-              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
+              className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-sm text-white font-bold hover:bg-sky-500 transition-all"
             >
               Registrasi Sekarang
             </button>
