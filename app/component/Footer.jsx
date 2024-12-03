@@ -81,6 +81,7 @@ const Footer = () => {
               Fasilitas Gedung
             </span>
           </a>
+          <br />
           <a href="#profile">
             <span className="font-normal hover:text-sky-400">
               Desa Tematik Kreatif
