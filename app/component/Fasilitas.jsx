@@ -126,7 +126,7 @@ const Fasilitas = () => {
               type="submit"
               className="flex px-5 mt-3 mx-auto bg-sky-400 py-1 rounded-sm text-white font-bold hover:bg-sky-500 transition-all"
             >
-              Registrasi Sekarang
+              Daftar Sekarang
             </button>
           </a>
         </div>
