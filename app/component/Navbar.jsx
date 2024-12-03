@@ -17,7 +17,7 @@ export default function NavBar() {
         { title: "TENTANG KOMITE EKRAF", href: "/Komite" },
         { title: "STRUKTUR ORGANISASI", href: "/Struktur" },
         {
-          title: "PERENCANAAN PENGEMBANGAN POTENSI EKRAF",
+          title: "PENGEMBANGAN POTENSI EKRAF",
           href: "/Potensi-Ekraf",
         },
         {
@@ -182,23 +182,21 @@ export default function NavBar() {
         {Object.entries(menuItems).map(([key, value]) => (
           <div
             key={key}
-            className={`absolute left-0 w-full h-60 bg-white shadow-lg transition-all duration-300 ${
+            className={`absolute left-0 w-full h-60 bg-sky-400 shadow-lg transition-all duration-300 ${
               activeMenu === key ? "opacity-100 visible" : "opacity-0 invisible"
             }`}
             onMouseEnter={() => setActiveMenu(key)}
             onMouseLeave={() => setActiveMenu(null)}
           >
-            <div className="max-w-7xl mx-10 py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="max-w-8xl mx-10 py-6 px-4 sm:px-6 lg:px-8 text-center">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {value.items.map((item, index) => (
                   <Link
                     key={index}
                     href={item.href}
-                    className="p-4 hover:bg-sky-400 rounded-lg border-2 transition-colors duration-200"
+                    className="p-4 hover:bg-sky-500 rounded-lg border-2 transition-colors duration-200"
                   >
-                    <div className="font-medium text-gray-900 hover:text-white">
-                      {item.title}
-                    </div>
+                    <div className="font-medium text-white">{item.title}</div>
                   </Link>
                 ))}
               </div>
