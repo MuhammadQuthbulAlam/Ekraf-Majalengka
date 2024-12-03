@@ -99,7 +99,7 @@ const Fasilitas = () => {
           id="pengajuan"
         >
           <h2 className="text-center lg:text-2xl/tight text-1xl font-medium mb-2">
-            Download Alur Pengajuan Gedung Untuk Kegiatan MCC di bawah ini
+            Download Alur Pengajuan Gedung MCC Untuk Kegiatan di bawah ini
           </h2>
           <RiDownloadCloud2Line className="text-black flex px-5 text-3xl justify-center z-30" />
           <button
