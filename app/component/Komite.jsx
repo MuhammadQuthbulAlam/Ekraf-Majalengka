@@ -192,7 +192,7 @@ const Komite = () => {
                   <span className="font-bold text-sky-400"> Ekraf</span>
                 </h1>
                 <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto">
-                  <div className="text-base px-2">
+                  <div className="text-base px-4 py-4">
                     Komite pengembangan ekonomi kreatif majalengka adalah
                     lembaga mitra pemerintahan dalam penyusunan kegiatan
                     pengembangan, mengarahkan serta mengawal pelaksanaan program
@@ -202,14 +202,11 @@ const Komite = () => {
                   </div>
                 </div>
               </div>
-
-              <div>
-                <Image
-                  src={mcc}
-                  alt=""
-                  className="lg:w-[675px] h-[400px] md:m-10 mx-auto rounded-lg"
-                />
-              </div>
+              <Image
+                src={mcc}
+                alt=""
+                className="flex lg:w-[675px] h-[400px] md:m-auto rounded-lg"
+              />
             </div>
             {/*Visi & Misi*/}
             <div className="box pt-5" id="visimisi">
@@ -221,7 +218,7 @@ const Komite = () => {
                 Visi
               </h3>
               <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto items-center">
-                <div className="text-base px-2 text-wrap">
+                <div className="text-base px-4 py-4 text-wrap">
                   Terwujudnya ekonomi kreatif sebagai sektor potensial unggulan
                   yang mendukung pertumbuhan ekonomi di kabupaten majalengka.
                 </div>
@@ -231,22 +228,23 @@ const Komite = () => {
               </h3>
               <div className="text-left mx-10 bg-white border-2 rounded-lg w-auto h-auto items-center">
                 <div className="text-base px-2 text-wrap">
-                  <span className="font-bold">1.</span> Mengoptimalisasi
-                  aktivasi gedung majalengka creative center sebagai ruang
-                  edukasi kreasi dan ekspresi bagi para pelaku ekonomi kreatif
-                  di kabupaten majalengka
-                  <div>
-                    <span className="font-bold">2.</span> Mendorong pertumbuhan
-                    dan perkembangan ekosistem ekonomi kreatif di kabupaten
-                    majalengka
-                  </div>
-                  <div>
-                    <span className="font-bold">3.</span> Mendorong pemerintah
-                    kab majalengka dalam menerbitkan peraturan daerah tentang
-                    ekonomi kreatif sebagai payung hukum bagi tumbuh
-                    kembangangnya ekosistem ekonomi kreatif di kabupaten
-                    majalengka
-                  </div>
+                  <ul className="list-decimal px-4 py-4">
+                    <li>
+                      Mengoptimalisasi aktivasi gedung majalengka creative
+                      center sebagai ruang edukasi kreasi dan ekspresi bagi para
+                      pelaku ekonomi kreatif di kabupaten majalengka
+                    </li>
+                    <li>
+                      Mendorong pertumbuhan dan perkembangan ekosistem ekonomi
+                      kreatif di kabupaten majalengka
+                    </li>
+                    <li>
+                      Mendorong pemerintah kab majalengka dalam menerbitkan
+                      peraturan daerah tentang ekonomi kreatif sebagai payung
+                      hukum bagi tumbuh kembangangnya ekosistem ekonomi kreatif
+                      di kabupaten majalengka
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
