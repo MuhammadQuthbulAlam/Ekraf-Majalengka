@@ -176,7 +176,7 @@ const Komite = () => {
         </div>
 
         {/*Tentang Ekraf*/}
-        <div className="pt-28" id="organisasi">
+        <div className="pt-26" id="organisasi">
           <h1 className="text-center lg:text-2xl/tight text-2xl font-medium mb-7">
             Komite Ekonomi{" "}
             <span className="font-bold text-sky-400">Kreatif</span>
@@ -205,7 +205,7 @@ const Komite = () => {
               <Image
                 src={mcc}
                 alt=""
-                className="flex lg:w-[675px] h-[400px] md:m-auto rounded-lg"
+                className="flex lg:w-[675px] h-[400px] md:m-auto rounded-lg pt-10"
               />
             </div>
             {/*Visi & Misi*/}
