@@ -230,8 +230,8 @@ const Komite = () => {
                 <div className="text-base px-2 text-wrap">
                   <ul className="list-decimal px-4 py-4">
                     <li>
-                      Mengoptimalisasi aktivasi gedung majalengka creative
-                      center sebagai ruang edukasi kreasi dan ekspresi bagi para
+                      Mengoptimalisasi aktivasi gedung Majalengka Creative
+                      Center sebagai ruang edukasi kreasi dan ekspresi bagi para
                       pelaku ekonomi kreatif di kabupaten majalengka
                     </li>
                     <li>
