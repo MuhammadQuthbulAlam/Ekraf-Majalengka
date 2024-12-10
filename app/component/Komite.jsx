@@ -28,11 +28,13 @@ const Komite = () => {
     <>
       <div className="">
         {/* SUbsektor Ekraf*/}
-        <Image
-          src={komiteEkraf}
-          className="w-52 mx-auto mt-5 pt-32"
-          alt="komite ekraf"
-        />
+        <div className=" flex box mt-32 w-60 bg-white border-2 rounded-lg mx-auto">
+          <Image
+            src={komiteEkraf}
+            className="w-52 mx-auto mt-5"
+            alt="komite ekraf"
+          />
+        </div>
         <h2 className="text-2xl text-center font-medium mb-4 pt-10">
           17 Subsektor
           <span className="text-sky-400 font-bold"> Ekonomi Kreatif</span>
