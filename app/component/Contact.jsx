@@ -142,10 +142,10 @@ const Contact = () => {
                 </a>
               </li>
 
-              <li className="size-24">
+              <li className="size-40">
                 <a href="https://data.majalengkakab.go.id/">
                   <Image src={opendata} alt="Open Data Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-16">
                     Open Data Kabupaten Majalengka
                   </p>
                 </a>

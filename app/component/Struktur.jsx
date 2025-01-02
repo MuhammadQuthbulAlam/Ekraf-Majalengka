@@ -6,8 +6,11 @@ const Struktur = () => {
     <>
       <h1 className="pt-32 text-center lg:text-2xl/tight text-2xl font-medium mb-5">
         Struktur Organisasi
-        <span className="font-bold text-sky-400">Ekraf</span>
+        <span className="font-bold text-sky-400"> Ekraf</span>
       </h1>
+      <p className="text-center">
+        Struktur Organisasi Majalengka Creative Center
+      </p>
       <Image
         src={org}
         alt="Struktur Organisasi"

@@ -207,7 +207,7 @@ const Komite = () => {
               <Image
                 src={mcc}
                 alt=""
-                className="flex lg:w-[675px] h-[400px] md:m-auto rounded-lg pt-10"
+                className="flex rounded-lg lg:w-[440px] h-[280px] md:m-auto pt-10 mt-10"
               />
             </div>
             {/*Visi & Misi*/}

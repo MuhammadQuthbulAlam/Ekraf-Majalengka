@@ -132,7 +132,7 @@ export default function NavBar() {
                 DESA TEMATIK
               </Link>
               {/*Kontak*/}
-              <Link
+              {/*<Link
                 href="/Contact"
                 className={`${
                   navbarBg ? "text-gray-800" : "text-gray-800"
@@ -140,14 +140,14 @@ export default function NavBar() {
                 onMouseEnter={() => setActiveMenu(null)}
               >
                 KONTAK
-              </Link>
+              </Link>*/}
             </div>
 
             {/* Desktop Login Button */}
             <div className="hidden md:block">
-              <Link href="/Login">
+              <Link href="/Contact">
                 <button className="text-white bg-sky-500 px-4 py-2 rounded hover:bg-sky-600">
-                  Login
+                  KONTAK
                 </button>
               </Link>
             </div>

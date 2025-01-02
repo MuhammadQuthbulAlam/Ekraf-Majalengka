@@ -1,5 +1,4 @@
 "use client";
-//import StatisticsPage from "./StatisticPage";
 import React, { useState, useEffect } from "react";
 import {
   Home,
@@ -518,12 +517,6 @@ const Dashboard = () => {
             </div>
           )}
         </div>
-        {activeLink === "statistik" && (
-          <StatisticsPage
-            laporanMasyarakat={laporanMasyarakat}
-            laporanMasuk={laporanMasuk}
-          />
-        )}
       </main>
     </div>
   );
