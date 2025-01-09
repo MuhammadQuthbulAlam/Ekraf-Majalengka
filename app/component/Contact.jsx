@@ -153,7 +153,7 @@ const Contact = () => {
               <li className="size-24">
                 <a href="https://diskominfo.majalengkakab.go.id/">
                   <Image src={diskominfo} alt="Diskominfo Kab. Majalengka" />
-                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-8">
+                  <p className="text-center text-sm font-medium hover:text-sky-500 pt-16">
                     Dinas Komunikasi dan Informatika Kabupaten Majalengka
                   </p>
                 </a>
